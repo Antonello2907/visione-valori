@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piattaforma Etica – Visione & Valori</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('sfondo.png') no-repeat center/cover;
+    text-align: center;
+    color: #111;
+  }
+
+  header {
+    background: #c8e08c;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  header a { color: #111; text-decoration: underline; }
+
+  h1 { margin-top: 2rem; }
+
+  .box {
+    background: #d0d3ff;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 600px;
+    border-radius: 8px;
+    line-height: 1.5;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    background: #6bc16b;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  footer {
+    background: #c8e08c;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+  footer a { color:#111; text-decoration: underline; }
+  .logo {
+    margin-top: 1rem;
+    max-width: 220px;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <a href="#">Menù</a>
+  </header>
+
+  <h1>Visione & Valori</h1>
+  <p>"La nostra forza è la coerenza tra ciò che crediamo e ciò che facciamo."</p>
+
+  <div class="box">
+    <h2><a href="#">Menù</a></h2>
+    <p>
+      In questa sezione condividiamo i principi che guidano la Piattaforma Etica:
+      rispetto, collaborazione, responsabilità, inclusione e sostenibilità.
+      Sono i valori che ci ispirano e che vogliamo trasformare in azioni concrete,
+      ogni giorno.
+    </p>
+    <a class="btn" href="#">“Visione & Valori”</a>
+  </div>
+
+  <img src="immagine1.jpg" alt="Logo Piattaforma Etica" class="logo">
+
+  <footer>
+    © 2025 Piattaforma Etica |
+    <a href="#">Contatti</a> |
+    <a href="#">Privacy</a> |
+    <a href="#">Cookie</a> |
+    <a href="#">Termini</a>
+  </footer>
+
+</body>
+</html>
